@@ -58,7 +58,7 @@ class syntax_plugin_croissant extends DokuWiki_Syntax_Plugin {
         $parts = explode(':', $ID);
 
         echo '<span class="plugin_croissant">';
-        echo '<span class="bchead">'.$lang['youarehere'].': </span>';
+        echo '<span class="bchead">'.$lang['youarehere'].'</span>';
 
         // always print the startpage
         array_unshift($parts, '');
